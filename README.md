@@ -13,7 +13,7 @@ then examining the sign. This library provides that angular difference calculati
 Other notes & portability
 =========================
 
-I wrote (and intend on keeping) this in a style that is very easy to port the logic to other languages.
+I wrote (and intend on keeping) this in a style that makes it very easy to port the logic to other languages.
 The only assumption I (try to) make about the behavior of the programming language is the behavior of the
 `fmod` (floating point modulus or `%`) for negative numbers. Later on, this assumption may even be relaxed.
 
