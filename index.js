@@ -22,10 +22,10 @@ function difference(b, a) {
    }
    else {
       if (answer > 0) {
-         return TWO_PI-answer;
+         return answer-TWO_PI;
       }
       else {
-         return TWO_PI+answer
+         return TWO_PI+answer;
       }
    }
 }
@@ -34,12 +34,7 @@ function difference(b, a) {
  * Converts an angle to the range [0, 2*PI)
  */
 function normalize(theta) {
-   if (theta >= 0) {
-      return theta % TWO_PI;
-   }
-   else {
-      return (theta % TWO_PI) + TWO_PI;
-   }
+   return ((theta % TWO_PI) + TWO_PI) % TWO_PI;
 }
 
 exports.normalize = normalize;
