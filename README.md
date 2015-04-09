@@ -6,7 +6,7 @@ It's a math library for when you want to find things out about angles.
 My own particular use case for this is that I always (for some reason) find myself needing
 to find the angular difference between two angles.
 
-Like, if an airplane is facing 23 degrees north of east, and I want it to face west, which
+For example, if an airplane is facing 23 degrees north of east, and I want it to face west, which
 way should it turn? The answer to that is found by calculating the angular difference and
 then examining the sign. This library provides that angular difference calculation.
 
